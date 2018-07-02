@@ -18,7 +18,7 @@ for line in lines[: min(1000000, len(lines) - 1)]:
     str = ''
     #print(line)
     #x = 'spotify*'
-    for i in range(2000):
+    for i in range(500):
         if 'spotify:track:' in line[i]:
             str += line[i]
             str += ','
